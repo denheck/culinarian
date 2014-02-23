@@ -1,0 +1,10 @@
+GIT
+  remote: https://github.com/denheck/plex-server
+  ref: master
+  sha: ac773c8bda42d02aa103afaf963f2ad492d3a015
+  specs:
+    plex-server (0.1.0)
+
+DEPENDENCIES
+  plex-server (>= 0)
+
