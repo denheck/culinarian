@@ -2,3 +2,5 @@
 .bundle
 /cookbooks
 /tmp
+chef-client-running.pid
+remote_file/
