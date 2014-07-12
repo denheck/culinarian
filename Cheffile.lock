@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/fnichol/chef-rbenv.git
+  ref: v0.7.2
+  sha: f2b53292e810dd2b43f6121f9958f5f29979dcb1
+  specs:
+    rbenv (0.7.2)
+
+GIT
   remote: https://github.com/denheck/plex-server
   ref: master
   sha: ac773c8bda42d02aa103afaf963f2ad492d3a015
@@ -7,4 +14,5 @@ GIT
 
 DEPENDENCIES
   plex-server (>= 0)
+  rbenv (>= 0)
 
