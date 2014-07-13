@@ -1,15 +1,19 @@
 #!/usr/bin/env ruby
 #^syntax detection
 
-site 'http://community.opscode.com/api/v1'
+site "https://supermarket.getchef.com/api/v1"
 
 # cookbook 'chef-client'
 
-# cookbook 'apache2', '>= 1.0.0'
+#cookbook 'apache2', '>= 1.0.0'
 
- cookbook 'plex-server', :git => 'https://github.com/denheck/plex-server'
- cookbook 'rbenv',
-  :git => 'git://github.com/fnichol/chef-rbenv.git', :ref => 'v0.7.2'
+cookbook 'plex-server', :git => 'https://github.com/denheck/plex-server'
+cookbook 'rbenv',
+  :git => 'git://github.com/fnichol/chef-rbenv.git',
+  :ref => 'v0.7.2'
+
+cookbook 'git'
+# , :git => 'git://github.com/jssjr/git.git', :ref => 'v4.0.2'
 
 # cookbook 'rvm',
 #   :git => 'https://github.com/fnichol/chef-rvm'

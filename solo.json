@@ -1,3 +1,7 @@
 {
-  "run_list": [ "recipe[plex-server]", "recipe[rbenv::system]" ]
+  "run_list": [
+    "recipe[plex-server]",
+    "recipe[rbenv::system]",
+    "recipe[git]"
+  ]
 }
